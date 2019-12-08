@@ -55,7 +55,7 @@ int main(int argc, char *argv[]){
 	
 	//file open
 	printf("input the file path: ");
-	scanf("%s", filepath);
+	scanf("%s", &filepath);
 	fp=fopen(filepath,"r");
 	
 	if(fp==NULL)
